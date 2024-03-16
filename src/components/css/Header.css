@@ -1,0 +1,43 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+}
+
+.header h2 {
+    font-size: 60px;
+    padding-right: 20px;
+}
+
+.image {
+    height: 200px;
+    width: 200px;
+}
+
+
+.navbar ul {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    justify-content: center;
+    background-color: lightgrey;
+
+    align-items: center;
+    padding: 25px;
+    gap: 20px;
+
+}
+
+.navbar li {
+    color: black;
+    margin: 0 100px;
+    /* Example spacing between links */
+}
+
+.navbar a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+
+}

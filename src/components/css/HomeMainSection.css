@@ -1,0 +1,91 @@
+/* HomeMainSection.css */
+.About {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Center align items horizontally */
+    text-align: center;
+    /* Ensures text within is centered */
+    gap: 20px;
+    /* Adds space between items */
+    padding: 20px;
+    /* Adjusted padding */
+    background-color: grey;
+    border-radius: 10px;
+    /* Optional: adds rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Optional: adds a subtle shadow */
+    /* Remove width and height if you want the content to define its size */
+    width: 50%;
+    height: 600px;
+    /* Example width */
+    /* Removed fixed height to allow content to define height */
+    margin: auto;
+    /* Centers in the flex parent if it has flex-direction: row */
+}
+
+
+.About button {
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    padding: 30px 20px;
+    background-color: blanchedalmond;
+    font-size: 20px;
+    cursor: pointer;
+
+    /* Adds space above the button */
+}
+
+.About button:hover {
+    transform: scale(1.075);
+}
+
+.About h1 {
+    font-size: 40px;
+    color: white;
+}
+
+.About p {
+    font-size: 20px;
+}
+
+.reviews-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.review-card {
+    padding: 20px;
+    background-color: #f9f9f9;
+    /* Light gray background */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow */
+    width: 300px;
+    /* Fixed width, but you can make it responsive */
+}
+
+.review-card h3 {
+    margin-top: 0;
+}
+
+.review-card p {
+    margin: 10px 0;
+}
+
+.review-rating {
+    color: #FFD700;
+    /* Gold color for stars */
+}
+
+.review {
+    padding-top: 100px;
+}
+
+.review h1 {
+    font-size: 50px;
+    color: black;
+}
